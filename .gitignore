@@ -1,0 +1,10 @@
+node_modules/
+test-results/
+playwright-report/
+playwright/.auth/
+blob-report/
+allure-results/
+allure-report/
+.env
+*.log
+tests/fixtures/testData.json
