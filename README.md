@@ -55,6 +55,12 @@ npm run allure:open         # serve e abre o relatório
 
 Relatório HTML nativo do Playwright: `npm run report`
 
+### 📸 Execução dos testes
+
+**Terminal (VSCode) — 36 testes passando:**
+
+![Execução dos testes no terminal](docs/screenshots/execucao-testes-terminal.png)
+
 ### 📸 Relatório Allure em execução
 
 **Visão geral — 36 casos de teste, 100% de sucesso, divididos por suíte (desktop, móvel, comprimido, setup):**
