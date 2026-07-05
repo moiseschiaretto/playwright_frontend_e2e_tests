@@ -2,6 +2,10 @@
 
 Suite de testes E2E **multi-dispositivo e responsivo** (desktop, mobile e tablet), com Playwright + TypeScript e Page Object Model, contra o [SauceDemo](https://www.saucedemo.com) — um site público mantido pela Sauce Labs especificamente para prática de automação de testes.
 
+![Testes](https://img.shields.io/badge/testes-36%20passando-brightgreen)
+![Playwright](https://img.shields.io/badge/Playwright-E2E%20multi--dispositivo-2EAD33)
+![CI](https://img.shields.io/badge/CI-GitHub%20Actions-blue)
+
 ## 🚀 Como Começar
 
 ```bash
@@ -51,6 +55,24 @@ npm run allure:open         # serve e abre o relatório
 
 Relatório HTML nativo do Playwright: `npm run report`
 
+### 📸 Relatório Allure em execução
+
+**Visão geral — 36 casos de teste, 100% de sucesso, divididos por suíte (desktop, móvel, comprimido, setup):**
+
+![Visão geral do relatório Allure](docs/screenshots/allure-visao-geral.png)
+
+**Suítes — testes organizados por projeto/dispositivo:**
+
+![Suítes do relatório Allure](docs/screenshots/allure-suites.png)
+
+**Pacotes — testes agrupados por spec (Carrinho, Checkout, Inventário, Login, auth.setup):**
+
+![Pacotes do relatório Allure](docs/screenshots/allure-pacotes.png)
+
+**Gráficos — status, gravidade e duração dos testes:**
+
+![Gráficos do relatório Allure](docs/screenshots/allure-graficos.png)
+
 ---
 
 ## Por que o SauceDemo como alvo
@@ -93,6 +115,8 @@ tests/
   fixtures/
     testData.example.json          # template committed
     testData.json                  # dados reais (gitignored — convenção mesmo sem dado sensível)
+docs/
+  screenshots/                    # capturas de tela do relatório Allure
 ```
 
 ## Convenções de código aplicadas
