@@ -1,0 +1,7 @@
+{
+  "checkout": {
+    "nome": "Nome",
+    "sobrenome": "Sobrenome",
+    "cep": "00000-000"
+  }
+}
